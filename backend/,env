@@ -1,0 +1,2 @@
+DATABASE_URL=postgresql://postgres:Naman%400304@localhost:5432/resume_db
+
