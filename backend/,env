@@ -1,2 +1,2 @@
-DATABASE_URL=postgresql://postgres:Naman%400304@localhost:5432/resume_db
+DATABASE_URL=postgresql://neondb_owner:npg_UClaTZgGS95i@ep-wild-sea-aokn4xhf-pooler.c-2.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
 
