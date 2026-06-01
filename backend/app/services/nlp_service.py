@@ -4,7 +4,7 @@ from functools import lru_cache
 
 import numpy as np
 import spacy
-from sentence_transformers import SentenceTransformer
+#from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -71,9 +71,9 @@ def get_spacy_model():
 
 @lru_cache
 def get_sentence_model():
-    try:
-        return SentenceTransformer("all-MiniLM-L6-v2")
-    except Exception:
+    #try:
+        #return SentenceTransformer("all-MiniLM-L6-v2")
+    #except Exception:
         return None
 
 
